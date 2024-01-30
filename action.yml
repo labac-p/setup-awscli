@@ -1,9 +1,9 @@
-name: 'awscli'
-description: 'awscli'
-author: 'labac-p'
-runs:
-  using: 'docker'
-  image: 'docker://public.ecr.aws/aws-cli/aws-cli:2.15.15'
+name: AWS CLI for Github Actions
+description: Run AWS CLI commands
+author: labac-p
 branding:
-  icon: 'cloud'
-  color: 'yellow'
+  icon: cloud
+  color: yellow
+runs:
+  using: docker
+  image: docker://public.ecr.aws/aws-cli/aws-cli:2.15.15
